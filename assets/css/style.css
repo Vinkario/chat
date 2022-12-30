@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat{
+    background-color:#fff;
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conversas{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.enviar{
+    justify-self: end;
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px ;
+
+}
+
+.enviar input{
+    box-shadow: none;
+    outline: 0;
+    width: 350px;
+    box-shadow: none;
+    padding: 10px;
+}
+
+.enviar button{
+    padding: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
