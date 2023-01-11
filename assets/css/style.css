@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-.chat{
+.box-chat{
     background-color:#fff;
     width: 400px;
     height: 500px;
@@ -24,10 +24,20 @@
     flex-direction: column;
 }
 
+
 .conversas{
     display: flex;
-    flex-direction: column-reverse;
-    
+    flex-direction: column;
+    height: 450px;
+    gap: 10px;
+}
+
+.conversas p{
+    background-color: rgb(81, 81, 199);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-start;
 }
 
 .enviar{
@@ -35,7 +45,6 @@
     justify-content: space-between;
     align-items: center;
     gap: 5px ;
-    background-color: aqua;
 
 }
 
